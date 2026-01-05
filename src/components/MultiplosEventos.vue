@@ -20,10 +20,11 @@
                 this.MultiplosEventos = txt /* AO CLICAR NO BOTAO ELE IRA APARECER ESSA MENSAGEM */
             },
             segundo(txt, e){
-                setTimeout(() => this.MultiplosEventos = txt, 1000)
+                setTimeout(() => this.MultiplosEventos = txt, 2000)
             },
+
             terceiro(txt, e){
-                setTimeout(() => this.MultiplosEventos = "", 1500) /* ultima mensagem vazia */
+                setTimeout(() => this.MultiplosEventos = "", 2500) /* ultima mensagem vazia */
             }
         }
     }
